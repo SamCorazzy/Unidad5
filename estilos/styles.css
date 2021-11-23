@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;600;700&display=swap');
+
+/* para abarcar toda la página */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* estilos del cuerpo */
+body{
+    background-color: rgb(192,231,212);
+	font-family: 'Spartan', sans-serif;
+    align-content: center;
+}
+
+/* estilos del menu */
+.menu{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    background-color: rgb(27, 97, 61);
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li{
+    display: inline;
+    padding-inline: 60px;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.contenedor{
+    border-radius: 10px; 
+    padding: 40px 100px;
+    text-align:justify;
+    justify-content: center;
+    
+    
+}
+
+.titulo-cont{
+    text-align: center;
+}
+
+/* estilos de listas */
+.listas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista1{
+    text-align: center;
+    padding-inline: 70px;
+}
+
+
+/* estilos de la tabla */
+.tablas{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    border: 2;
+    border-color: #a16870;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tabla1{
+    padding-inline: 70px;
+}
+
+
+
+/* estilos del footer */
+footer{
+    background-color: #5484eb;
+    color: #262626;
+    padding: 20px;
+    text-align: center;
+}
